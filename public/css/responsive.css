@@ -1,0 +1,10 @@
+@media screen (min-width: 768px){
+	.profile .pro-pic img{
+		width: 40%;
+	}
+}
+@media screen (max-width: 767px){
+	.profile .pro-pic img{
+		width: 25%;
+	}
+}

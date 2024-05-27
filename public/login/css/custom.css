@@ -1,0 +1,40 @@
+.row.no-gutters.min-vh-1001.py-5 {
+    width: 73%;
+    margin: 0 auto;
+    /*margin-top: 15%;*/
+}
+.oxyy-login-register .bg-dark {
+    background-color: #fff!important;
+}
+.oxyy-login-register .form-dark .form-control, .oxyy-login-register .form-dark .custom-select {
+    border-color: #232a31;
+    background: #fff;
+    color: #000;
+}
+.oxyy-login-register .form-dark .custom-control-label:before {
+    display: none;
+}
+input#remember-me {
+    margin-left: -20px;
+}
+img.logo_image {
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+@media only screen and (max-width: 600px) {
+    body{
+        overflow-y: overlay!important;
+    }
+    img.logo_image {
+        width: 70%;
+        margin-top: 0px!important;
+        margin-bottom: 20px!important;
+    }
+    h1.text-white {
+        font-size: 25px;
+    }
+    h2.text-white.mb-4 {
+        font-size: 18px;
+    }
+}
